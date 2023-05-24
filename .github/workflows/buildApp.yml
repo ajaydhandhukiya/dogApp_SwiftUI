@@ -16,5 +16,5 @@ jobs:
       - name: Build app
         run: |
           cd path/to/project
-          xcodebuild clean build -workspace YourWorkspace.xcworkspace -scheme DogsApp -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=15.2,name=iPhone 13'
+          xcodebuild clean build -workspace DogsApp.xcworkspace -scheme DogsApp -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=15.2,name=iPhone 13'
 
